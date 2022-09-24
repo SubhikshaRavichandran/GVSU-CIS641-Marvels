@@ -11,6 +11,9 @@ facilities, we make it quicker than ever…
 
 * <a href="https://github.com/SubhikshaRavichandran/CIS641-HW2-SubhikshaRavichandran.git" target="_blank">Subhiksha(Software engineer)</a>
 
+* <a href="https://github.com/kavyakannedari09/CIS641-HW2-KavyaKannedari.git" target="_blank">KavyaKannedari(developer,tester)</a>
+
+
 
 # Prerequisites
 
