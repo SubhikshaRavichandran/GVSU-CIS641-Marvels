@@ -13,7 +13,7 @@ facilities, we make it quicker than ever…
 
 * <a href="https://github.com/kavyakannedari09/CIS641-HW2-KavyaKannedari.git" target="_blank">KavyaKannedari(developer,tester)</a>
 
-* <a href="https://github.com/SaiSujithAreti/CIS641-HW2-Areti.git" target="_blank">Sai Sujith(Data Analyst)</a>
+* <a href="https://github.com/SaiSujithAreti/CIS641-HW2-Areti.git" target="_blank">Sai Sujith Areti(Technical Analyst)</a>
 
 * <a href="https://github.com/Sahithi2701/CIS641-HW2-SahithiReddy.git" target="_blank">SahithiReddyKalijavedu(Software developer,tester)</a>
 
