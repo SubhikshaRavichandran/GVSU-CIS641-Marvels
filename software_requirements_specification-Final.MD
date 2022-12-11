@@ -1,5 +1,6 @@
 # Overview
-In a summary, an online reservation system adds a booking facility to the website and allows you to provide hassle-free booking to your customers. Moreover, if they want to book a badminton court, they do not need to call and make an appointment; rather, they can simply choose the desired date and time and confirm the booking after making a successful advance payment. That is exactly what the play spots Badminton ground booking. If you want to book a pitch at any of our partner facilities, we make it quicker than ever. This documents depicts about the Software Requirements, Change Management Plans, Traceability and Software Artifacts.
+In a summary, an online reservation system adds a booking facility to the website and allows you to provide hassle-free booking to your customers. Moreover, if they want to book a badminton court, they do not need to call and make an appointment; rather, they can simply choose the desired date and time and confirm the booking after making a successful advance payment. That is exactly what the play spots Badminton ground booking. If you want to book a pitch at any of our partner facilities, we make it quicker than ever. 
+This documents depicts about the Software Requirements, Change Management Plans, Traceability and Software Artifacts.
 
 # Software Requirements
 Here we detail the expected system behavior and list the features that will be made available to Badminton court booking customers. The needs of the end-user are specified in the section labeled "functional requirements." The user assumption is laid out in the non-functional requirements section, and it applies to the entire system.
@@ -70,7 +71,7 @@ Here we detail the expected system behavior and list the features that will be m
 | NFR5 |  The data usage for booking shall be relatively minimal for customers. |
 
 
-### <2. Scalability >
+### 2. Scalability 
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR6 |  Any server issue or technical issue with the application shall be resolved by contacting customer service and support. |
@@ -80,7 +81,7 @@ Here we detail the expected system behavior and list the features that will be m
 | NFR10 |  The price shall fall to a lower level as the number of people who purchase it rises. |
 
 
-### <3. Performance>
+### 3. Performance
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR11 |  The page shall load in fractions of a second as opposed to any delay.|
@@ -90,7 +91,7 @@ Here we detail the expected system behavior and list the features that will be m
 | NFR15 |  When selecting the court date and time user shall use Google Maps to enter the precise location. |
 
 
-### <4. Security>
+### 4. Security
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR16 |  In terms of security, the user shall be provided with the code for resetting the password.|
@@ -98,9 +99,9 @@ Here we detail the expected system behavior and list the features that will be m
 | NFR18 |  When a user creates an account, they shall receive an email indicating that they have successfully logged in. |
 | NFR19 |  The user's passwords and account information as well as their banking information shall be protected. |
 | NFR20 |  To ensure the user's privacy and safety, the code needed to reset the password shall be delivered to the user. |
-| … | … | … |
 
-### <5. Usability>
+
+### 5. Usability
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR21 |  When numerous users are accessing the program, there shall be no interruptions. |
@@ -160,21 +161,27 @@ This section will talk about a plan for handling changes to the Badminton court 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| user        | NFR3, FR5 |
-| court       | NFR3, FR5 |
-| Booking     | NFR3, FR5 |
-| Fee         | NFR3, FR5 |
+| user        | NFR2,7,12,14,15,16,18,19,20,24 FR1-5 |
+| court       | NFR12,15,23,25 FR16-20 |
+| Booking     | NFR1,5,25 FR11-15 |
+| Fee         | NFR8,10 FR21-25 |
 
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1. | New user/Signup | FR1-5, NFR2 |
-| 2. | Old user/Homepage | FR1-5, NFR2 |
-| 3. | Book an Appointment | FR1-5, NFR2 |
-| 4. | logout | FR1-5, NFR2 |
+| 1. | New user/Signup | FR1,5, NFR7,14,20 |
+| 2. | Old user/Homepage | FR2,3,4, NFR2,16,19 |
+| 3. | Book an Appointment | FR16-20, NFR1,5,25 |
+| 4. | logout | FR20, NFR3,5,21 |
 
 
 # Software Artifacts
 All of the application's artifacts, such as software and design documents, were supposed to be outlined in this section. We will also identify the functional and non-functional needs that should be coordinated with the artifacts. For your convenience, we've provided direct URLs to each required application artifact below.
-* [I am a link](to_some_file.pdf)
+* [Class Diagrams and Signatures](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Class%20Diagrams%20and%20Signatures.pdf)
+* [Class Diagrams](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Class%20Diagrams.pdf)
+* [CRC + Class Diagrams + Object Models](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/CRC%20%2B%20Class%20Diagrams%20%2B%20Object%20Models.pdf)
+* [Database Table](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Database%20Table.jpeg)
+* [Sequence diagram & State Machine Diagram](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Sequence%20diagram%20%26%20State%20Machine%20Diagram.pdf)
+* [Term Project Interim Progress Marvels](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Term%20Project%20Interim%20Progress%20Marvels.docx)
+* [Use case Diagram and Activity Diagram](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Use%20case%20Diagram%20and%20Activity%20Diagram.docx)
