@@ -10,7 +10,7 @@ Here we detail the expected system behavior and list the features that will be m
 | ID  | Requirement              |
 | :-------------: | :----------: |
 | FR1 | To book the court, the user shall need to log in.|
-| FR2 | If the user has not previously used this account or application. When the user attempts to log in, a choice that is labeled " sign up page" must be presented to them. When he goes to the sign-up page and clicks on it. The registration page needs to be made available.|
+| FR2 | If the user shall has not previously used this account or application. When the user attempts to log in, a choice that is labeled " sign up page" must be presented to them. When he goes to the sign-up page and clicks on it. The registration page needs to be made available.|
 | FR3 | In registration page, there will be multiple fields to enter the details of the user. For few fields there shall be validation for email and password.|
 | FR4 | Following a successful log in, the program will navigate back to the homepage. The user data shall must be validated from the database before the application may proceed.|
 | FR5 | Users shall view all of the available customizable features for the application from the website.|
@@ -34,7 +34,7 @@ Here we detail the expected system behavior and list the features that will be m
 | FR12 |  When the user presses the information of the court, the display shall update to include the date, the time, and the location. |
 | FR13 |  The user shall have access to select the size of the court according to their preferences.|
 | FR14 |  The user shall have access to delete their court booking.|
-| FR15 |  Once the user is done with their payment for their court, the booking in the cart will be moved to the orders section.|
+| FR15 |  Once the user shall done with their payment for their court, the booking in the cart will be moved to the orders section.|
 
 
 
@@ -56,7 +56,7 @@ Here we detail the expected system behavior and list the features that will be m
 | FR22 |  The user shall be brought to the Payment page after they have booked the court. |
 | FR23 |  The user shall be able to view the booking confirmation after the money has been made. |
 | FR24 |  The price shall fall to a lower level as the number of people who purchase it rises. |
-| FR25 |  The user will be taken directly to the orders page once the court fee has been completed. |
+| FR25 |  The user shall be taken directly to the orders page once the court fee has been completed. |
 
 
 
@@ -75,10 +75,10 @@ Here we detail the expected system behavior and list the features that will be m
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR6 |  Any server issue or technical issue with the application shall be resolved by contacting customer service and support. |
-| NFR7 |  If the user wants to change the password of the Application, the user will get a email verification to change the password. |
+| NFR7 |  If the user wants to change the password of the Application, the user shall get a email verification to change the password. |
 | NFR8 |  The price shall decrease as the number of individuals increases. |
-| NFR9 |  This application refers to the ease with which a system may communicate data and information with other computers and devices that are not part of the system.|
-| NFR10 |  The price shall fall to a lower level as the number of people who purchase it rises. |
+| NFR9 |  This application shall refers to the ease with which a system may communicate data and information with other computers and devices that are not part of the system.|
+| NFR10 | The price shall fall to a lower level as the number of people who purchase it rises. |
 
 
 ### 3. Performance
@@ -108,7 +108,7 @@ Here we detail the expected system behavior and list the features that will be m
 | NFR22 |  The program shall be designed to be user-friendly, making it simple for customers to interact. |
 | NFR23 |  The system shall ought to display all of the relevant information regarding the court. |
 | NFR24 |  The program shall require to provide a consistent viewing effect across all of its users. |
-| NFR25 |  Using the "First Come, First Served" method is a part of court booking that helps sort things out. So, it shall be simple to check data from beginning to end. |
+| NFR25 |  Using the "First Come, First Served" method is a part of court booking helps sort things out. So, it shall be simple to check data from beginning to end. |
 
 
 ## Change management plan :
@@ -185,3 +185,18 @@ All of the application's artifacts, such as software and design documents, were 
 * [Sequence diagram & State Machine Diagram](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Sequence%20diagram%20%26%20State%20Machine%20Diagram.pdf)
 * [Term Project Interim Progress Marvels](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Term%20Project%20Interim%20Progress%20Marvels.docx)
 * [Use case Diagram and Activity Diagram](https://github.com/SubhikshaRavichandran/GVSU-CIS641-Marvels.github.io/blob/main/Docs/Use%20case%20Diagram%20and%20Activity%20Diagram.docx)
+
+
+## Prerequisite
+
+* The backend data base for this application on web based is with RDBMS–relational databases respective with the java model view control method to be loaded into web.
+
+## Run Instructions
+
+* In order to set up Java, you will need to use the Java Development Kit (JDK).
+* Finally set the PATH and JAVA_HOME environment variables to refer to the directory that contains java and java_install_dir respectively.
+* Need to Setup the Eclipse IDE.
+* Need to install Apache Common Logging API.
+* After you have successfully downloaded the installation, you will need to unpack the binary distribution into a location that is easily accessible.These jar files and supporting documents will be in this directory.
+* After we have finished installing the Spring Framework Libraries, we will be able to move on to installing the Spring Framework itself.
+
