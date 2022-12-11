@@ -141,8 +141,9 @@ This section will talk about a plan for handling changes to the Badminton court 
 -	Thus, this can be easily installed in any customer’s environment.
 
 ## Discovered Issues and Solution :
--	The technical team in the backend ensures that the application works properly.
+-  The technical team in the backend ensures that the application works properly.
 -  The rental sales and services will be given to the customers if they need the equipment.
+-  By Using the "First Come, First Served" method is a part of court booking helps sort things out. So, it is simple to check data from beginning to end.
 
 ## Traceability links :
 
